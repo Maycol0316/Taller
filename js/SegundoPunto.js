@@ -14,13 +14,18 @@ form.addEventListener("submit", e=>{
     warnings +="El nombre NO es valido  <br>"
     entrar = true
   }
+  
 
     if (!regexEmail.test(email.value)) {
         warnings +="El correo NO es valido revise caracteres @ y .<br>"
         alert("Error: La dirección de correo " + email + " es incorrecta.");
         entrar = true
     }
-
+   name=document.getElementById("nombres").value
+   if (name.indexOf (" ")<=-1){
+    alert ("ingrese apellido");
+    entrar = true
+}
     if (entrar){
         parrafo.innerHTML = warnings
     } else{
