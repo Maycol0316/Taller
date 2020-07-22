@@ -1,0 +1,21 @@
+.container {
+    background-color: rgb(233, 238, 240);
+    margin: black solid 1px;
+    width: 310px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.formulario input[type=text]{
+	width: 300px;
+}
+
+.formulario input[type=button]{
+    margin-top: 10px;
+   
+}
+
+
+
+

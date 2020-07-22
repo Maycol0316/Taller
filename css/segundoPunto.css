@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(107, 140, 211);
+}
+
+#segundoPunto {
+    background-color: white;
+    width: 330px;
+    height: 350px;
+    display: block;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container label{
+    display: flex;
+    margin: 0px;
+    width: 100px;
+    margin-left: 10px;
+}
+.container input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+}
+.container1 label{
+    display: flex;
+    margin: 0px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.container1 input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+}
+button {
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.warnings {
+    margin-left: 10px;
+    color: red;
+}

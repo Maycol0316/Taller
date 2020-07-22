@@ -1,0 +1,23 @@
+#principal {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border: black solid 1px;
+}
+
+
+#principal input{
+    display: block;
+    margin-left: 200px;
+   
+}
+
+#principal label{
+    display: flex;
+    margin-left: 10px;
+    width: 1px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 150px;
+}
